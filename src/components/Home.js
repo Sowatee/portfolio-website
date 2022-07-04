@@ -18,7 +18,6 @@ const Wrapper = styled.section`
   gap: 2rem;
   background: url(${background}) no-repeat;
   text-align: center;
-  background-attachment: fixed;
 
   a {
     border: 1px solid white;
