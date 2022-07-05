@@ -49,7 +49,7 @@ const Wrapper = styled.section`
     height: 90vh;
     max-height: 600px;
     margin: auto;
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 1rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -69,6 +69,9 @@ const Wrapper = styled.section`
 
 
     footer {
+      background-color: white;
+      border-bottom-left-radius: 1rem;
+      border-bottom-right-radius: 1rem;
       height: 50%;
       display: flex;
       flex-direction: column;
@@ -96,6 +99,12 @@ const Wrapper = styled.section`
         a {
           padding: .5rem 0;
           width: 45%;
+          background: orange;
+
+          &:hover {
+            background: black;
+            color: white;
+          }
         }
       }
     }
