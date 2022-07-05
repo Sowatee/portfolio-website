@@ -78,7 +78,7 @@ const Wrapper = styled.section`
       transition: .2s all linear;
 
       &:hover {
-        background-color: #ff1a1a;
+        background-color: black;
         color: white;
         cursor: pointer;
       }
