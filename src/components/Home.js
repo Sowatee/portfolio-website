@@ -1,33 +1,22 @@
 import styled from 'styled-components';
-import background from '../images/background-2.jpg'
 
 export default function Home () {
   return (
     <Wrapper>
+      <h3>James Prescott</h3>
       <h1>Frontend Developer</h1>
-      <a href="/images/myw3schoolsimage.jpg">Download CV</a>
+      <a href="/">Download CV</a>
     </Wrapper>
   );
 }
 
 const Wrapper = styled.section`
+  background-image: linear-gradient(to right bottom, #ff1a1a, #ff5308, #ff7600, #ff9300, #ffae1a);  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 2rem;
-  background: url(${background}) no-repeat;
   text-align: center;
-
-  a {
-    border: 1px solid white;
-    padding: 1rem;
-    border-radius: .5rem;
-    transition: all .2s linear;
-
-    &:hover {
-      background: white;
-      color: orange;
-    }
-  }
+  gap: 2rem;
 `
