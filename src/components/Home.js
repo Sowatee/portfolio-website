@@ -5,7 +5,7 @@ export default function Home () {
     <Wrapper>
       <h3>James Prescott</h3>
       <h1>Frontend Developer</h1>
-      <a href="/">Download CV</a>
+      <a href="/James_Prescott_Resume.pdf">Download CV</a>
     </Wrapper>
   );
 }
