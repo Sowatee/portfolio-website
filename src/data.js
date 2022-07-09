@@ -7,17 +7,10 @@ export default [
     link: "https://alchemistfieldguide.netlify.app/"
   },
   {
-    name: "Expenses Tracker",
-    description: "I created this website to help with creating a budget and tracking my expenses. It utilizes Chart.js for data visualization.",
-    image: "https://i.imgur.com/iJPN8JP.jpg",
-    github: "",
-    link: ""
-  },
-  {
-    name: "The Medieval Emporium",
-    description: "An e-commerce store for a fictional maker of medieval weapons and armor made with React Router and Redux.",
-    image: "https://i.imgur.com/oBZYGDk.jpg",
-    github: "",
-    link: ""
+    name: "Hacker News Browser",
+    description: "I created this website to easily search through the Hacker News website.",
+    image: "https://upload.wikimedia.org/wikipedia/en/1/15/Hn_screenshot.png",
+    github: "https://github.com/Sowatee/hacker-news-browser",
+    link: "https://hackernewsbrowser.netlify.app/"
   },
 ]
